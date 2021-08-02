@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: library/postgres:latest
+    ports:
+      - "5432:5432"
+    container_name: library-db-postgres
+    environment:
+      - POSTGRES_DB=library-db
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_USER=docker
