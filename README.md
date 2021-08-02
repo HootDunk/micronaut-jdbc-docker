@@ -1,3 +1,6 @@
+## micronaut-jdbc-docker
+This is simply the code from the micronaut-jdbc guide with the addition of a docker compose file to create the Postgres database and some configuration to get it working with Flyway. 
+
 ## Micronaut 2.5.11 Documentation
 
 - [User Guide](https://docs.micronaut.io/2.5.11/guide/index.html)
